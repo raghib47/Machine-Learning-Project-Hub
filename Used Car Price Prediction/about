@@ -1,0 +1,18 @@
+ Used Car Price Prediction ML project and honestly really happy with how it turned out 🚗
+
+The idea was simple — when someone buys a used car, how do they know if the price is actually fair? I wanted the data to answer that.
+
+Worked with **6,019 real car sales records** from the Indian used car market. Did a full preprocessing pipeline — handled missing values, extracted numeric data from text columns like "998 CC" and "58.16 bhp", pulled out car brand as a separate feature, removed outliers using IQR, and applied Label + One-Hot Encoding. After cleaning, the final dataset had **5,872 rows and 27 features**.
+
+Trained 3 models and compared them —
+Linear Regression → 72.56% | Decision Tree → 83.18% | **Random Forest → 91.23%** 🏆
+
+Decision Tree looked great on training (99.99%) but was clearly overfitting. Random Forest won by actually generalizing well.
+
+Interesting finding from EDA — **Location was the single most impactful feature**, more than engine size or mileage. Power and year push price up, kilometers driven brings it down. First Owner cars hold the most value. Things that make sense but hit different when you actually see it in the data.
+
+Also built a live prediction system on top — input your car details, get an instant price estimate. Tested it on a 2012 diesel manual from Mumbai with 30k km driven → predicted **6.64 Lakhs** 🎯
+
+Biggest lesson — high training accuracy ≠ good model. That clicked for me properly through this project.
+
+**Tech:** Python • Pandas • NumPy • Matplotlib • Seaborn • Scikit-learn • Jupyter Notebook
