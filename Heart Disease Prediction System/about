@@ -1,0 +1,40 @@
+**Heart Disease Prediction System using Machine Learning (SVM Model)**
+
+---
+
+### 📖 **Project Description**
+
+This project is a machine learning-based web application that predicts the likelihood of heart disease using patient health data. The model is built using a **Support Vector Machine (SVM)** algorithm and deployed through an interactive **Streamlit** interface.
+
+Users can input key medical parameters such as age, sex, chest pain type, blood pressure, cholesterol levels, heart rate, and other clinical indicators. The system processes the input data using a pre-trained scaler and aligns it with the expected feature set before making predictions.
+
+The model then classifies the patient’s condition into:
+
+* **High Risk of Heart Disease**
+* **Low Risk of Heart Disease**
+
+This project demonstrates the practical application of machine learning in healthcare, combining data preprocessing, model training, and real-time prediction in a user-friendly interface.
+
+---
+
+### 🚀 **Key Features**
+
+* Interactive UI built with Streamlit
+* Pre-trained SVM model for classification
+* Data preprocessing using scaling and feature alignment
+* Real-time prediction with instant results
+* Easy-to-use input system for medical parameters
+
+---
+
+### 🛠 **Tech Stack**
+
+* Python
+* Streamlit
+* Scikit-learn
+* Pandas
+* Joblib
+
+---
+
+* Or help you improve the project to make it **job-ready for Dubai market**
