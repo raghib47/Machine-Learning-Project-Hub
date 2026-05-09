@@ -1,1 +1,21 @@
+🚀 Sentiment Analysis App using NLP & Machine Learning
+
+This project is a simple yet powerful Sentiment Analysis Web App that predicts whether a text expresses Positive or Negative sentiment. Built using NLP techniques, TF-IDF vectorization, and a Logistic Regression model, then deployed with Streamlit for an interactive user experience.
+
+🔹 Features
+✅ Text preprocessing & cleaning
+✅ TF-IDF / Bag of Words feature extraction
+✅ Logistic Regression classifier
+✅ Real-time sentiment prediction
+✅ Streamlit web interface
+
+🛠 Tech Stack
+
+* Python
+* Scikit-learn
+* NLP
+* Streamlit
+* Joblib
+
+
 
