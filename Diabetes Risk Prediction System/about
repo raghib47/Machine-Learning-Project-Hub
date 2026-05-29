@@ -1,0 +1,55 @@
+This project focuses on predicting diabetes risk using patient clinical data with a Machine Learning classification model built using **Support Vector Machine (SVM)** and deployed through an interactive **Streamlit web application**.
+
+🔹 **Project Workflow**
+✔ Data preprocessing using **NumPy** and **Pandas**
+✔ Feature scaling with **StandardScaler**
+✔ Dataset splitting using **train_test_split**
+✔ Model training using **Linear SVM Classifier** from Scikit-learn
+✔ Model evaluation using **Accuracy Score**
+✔ Model & scaler serialization using **Pickle**
+✔ Interactive deployment using **Streamlit**
+✔ Visualization using **Plotly Gauge Charts**
+
+📊 **Features Used for Prediction**
+• Pregnancies
+• Glucose Level
+• Blood Pressure
+• Skin Thickness
+• Insulin
+• BMI
+• Diabetes Pedigree Function
+• Age
+
+🧠 **Machine Learning Details**
+The model was trained using a **linear kernel SVM classifier** after standardizing the dataset to improve performance and prediction accuracy.
+
+The dataset was split into training and testing sets with stratified sampling to maintain balanced class distribution. The trained model was then saved as:
+• `diabetes_model.pkl`
+• `scaler.pkl`
+
+💻 **Application Features**
+✨ Modern responsive UI with custom CSS
+✨ Real-time diabetes risk prediction
+✨ Probability confidence gauge
+✨ Feature health range analysis
+✨ Risk indicators with visual feedback
+✨ Interactive Plotly dashboard
+✨ Streamlit-powered deployment
+
+📈 The system predicts whether a patient has a high or low diabetes risk and displays:
+✔ Diabetes probability
+✔ Confidence percentage
+✔ Risk gauge visualization
+✔ Out-of-range health indicators
+
+🛠 **Tech Stack**
+Python | Scikit-learn | Streamlit | Plotly | NumPy | Pandas | Pickle
+
+This project helped me strengthen my understanding of:
+🔹 Machine Learning workflows
+🔹 Data preprocessing & feature scaling
+🔹 Classification algorithms
+🔹 Model deployment
+🔹 Building real-world AI healthcare applications
+
+
