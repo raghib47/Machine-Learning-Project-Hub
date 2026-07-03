@@ -1,0 +1,44 @@
+
+
+ **Handwritten Digit Recognition using Deep Learning**.
+
+This application allows users to draw any handwritten digit (0–9) on an interactive canvas, and the model instantly predicts the digit with a confidence score and probability distribution for all classes.
+
+### 💡 Project Highlights
+
+✅ Interactive drawing canvas for handwritten digits
+✅ Real-time digit prediction using a trained deep learning model
+✅ Displays prediction confidence and class-wise probabilities
+✅ Image preprocessing before inference for improved accuracy
+✅ Simple, clean, and user-friendly web interface built with Streamlit
+
+### 🛠️ Technologies Used
+
+* 🐍 Python
+* 🧠 TensorFlow / Keras
+* 🌐 Streamlit
+* 🖼️ Pillow (PIL)
+* 🔢 NumPy
+
+### ⚙️ How It Works
+
+1️⃣ The user draws a digit on the canvas.
+2️⃣ The drawing is converted to grayscale and resized to **28×28 pixels**.
+3️⃣ Pixel values are normalized and inverted to match the training dataset format.
+4️⃣ The processed image is passed to the trained deep learning model.
+5️⃣ The model predicts the digit and displays:
+
+* Predicted digit
+* Confidence percentage
+* Probability for each digit (0–9)
+
+
+
+Working on this project gave me hands-on experience with:
+
+* Deep Learning fundamentals
+* Image preprocessing techniques
+* Building and deploying AI applications
+* Integrating TensorFlow models with Streamlit
+* Creating interactive machine learning applications for end users
+
