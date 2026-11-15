@@ -1,0 +1,25 @@
+n this project, I developed a Convolutional Neural Network (CNN) model to classify images into two categories: Apples and Tomatoes.
+
+Through this project, I explored how deep learning and computer vision can be used for image classification and how CNNs automatically learn important visual features from images.
+
+🛠️ Technologies Used:
+
+Python
+
+TensorFlow / Keras
+
+Convolutional Neural Networks (CNN)
+
+Image Processing
+
+Deep Learning
+
+💡 Key Learning Outcomes:
+
+Understanding CNN architecture
+
+Image preprocessing and data preparation
+
+Model training and evaluation
+
+Applying deep learning to real-world image classification tasks
